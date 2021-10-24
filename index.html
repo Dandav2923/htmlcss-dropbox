@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
     <!-- inizio della struttura dell'header -->
     <header class="intestazione-pagina">
+        <!-- struttura della nav-bar con position fixed -->
         <nav class="barra-di-navigazione clearfix">
             <div class="colonna float-sinistra">  
                 <img id="img-logo" src="img/logo-small.png" alt="">
@@ -42,8 +49,34 @@
                 </ul>
             </div>
         </nav>
-        <section>
+    <!-- /struttura della nav-bar con position fixed -->
 
+        <!-- inizio struttura jumbotron  -->
+        <section class="jumbotron">
+            <div class="titolo-pagina">
+                <h1>
+                    Tutto ci&ograve; che ti serve per il lavoro, in un unico posto
+                </h1>
+                <div class="testo-jumbo">
+                    <p>
+                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business è pi&ugrave; di uno spazio di archiaviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                    </p>  
+                </div>
+                <div class="pulsante">
+                    <a class="cta" href="">Inizia la tua prova gratuita</a>
+                </div>
+                <div class="annullamento">
+                        Annulla in qualsiasi momento
+                </div>
+                <div class="collegamento-pagina2">
+                    <a id='freccia' href="">
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contenitore-immagine-jumbo">
+                <img id="img-jumbo" src="img/jumbo.png" alt="">
+            </div>
         </section>
     </header>
     <!-- fine struttura header  -->
