@@ -15,6 +15,23 @@ html {
     clear: both; 
 }
 
+.colonna {
+    padding: 0.5em;
+    line-height: 50px;
+}
+.intestazione-pagina, .barra-di-navigazione {
+    width: 100%;
+}
+
+.barra-di-navigazione, .link-barra-di-navigazione {
+    height: 50px;
+}
+
+#img-logo {
+    height: 100%;
+    vertical-align: middle;
+}
+
 .float-sinistra {
     float: left;
 }
@@ -23,6 +40,19 @@ html {
     float: right;
 }
 
-.intestazione-pagina, .barra-di-navigazione {
-    width: 100%;
+ .elenco-link, li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
 }
+
+.link-barra-di-navigazione {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding: 1em 0.5em;
+}
+
+
+
+
