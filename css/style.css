@@ -8,3 +8,21 @@ html {
     font-size: 100%;
     font-family: 'Open sans';
 }
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+.float-sinistra {
+    float: left;
+}
+
+.float-destra {
+    float: right;
+}
+
+.intestazione-pagina, .barra-di-navigazione {
+    width: 100%;
+}
