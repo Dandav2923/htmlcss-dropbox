@@ -39,9 +39,9 @@ html {
     background-color: white;
 }
 
-.barra-di-navigazione, .link-barra-di-navigazione {
+/* .barra-di-navigazione, .link-barra-di-navigazione {
     height: 70px;
-}
+} */
 
 #img-logo {
     height: 100%;
@@ -70,7 +70,6 @@ html {
 }
  .jumbotron {
      width: 100%; 
-     margin-top: 2em;
      background-color: lightblue;
      padding: 3em;
      position: relative;
@@ -101,6 +100,7 @@ html {
 
  .annullamento {
      margin: 1em 0;
+     display: inline-block;
  }
 
  #freccia {
@@ -115,9 +115,9 @@ html {
  }
 
  #img-jumbo {
-     width: 50%;
+     width: 48%;
      position: absolute;
-     top: 60%;
-     right: 5em;
+     top: 48%;
+     right: 12em;
  }
 
