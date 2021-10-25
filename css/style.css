@@ -7,6 +7,7 @@
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .clearfix::after {
@@ -27,6 +28,10 @@ html {
     cursor: pointer;
     padding: 0.5em;
 }
+
+.cta:hover {
+    
+}
 .intestazione-pagina, .barra-di-navigazione {
     width: 100%;
 }
@@ -38,10 +43,6 @@ html {
     z-index: 999;
     background-color: white;
 }
-
-/* .barra-di-navigazione, .link-barra-di-navigazione {
-    height: 70px;
-} */
 
 #img-logo {
     height: 100%;
@@ -67,6 +68,7 @@ html {
     cursor: pointer;
     color: black;
     padding: 1em 0.5em;
+    margin: 0 1em;
 }
  .jumbotron {
      width: 100%; 
