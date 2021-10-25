@@ -10,6 +10,29 @@ html {
     font-weight: 600;
 }
 
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-70 {
+    width: 70%;
+}
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.centratura {
+    margin: 0 auto;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -30,11 +53,9 @@ html {
 }
 
 .cta:hover {
-    
+    filter: opacity(80%);
 }
-.intestazione-pagina, .barra-di-navigazione {
-    width: 100%;
-}
+
 
 .barra-di-navigazione {
     position: sticky;
@@ -67,34 +88,28 @@ html {
     text-decoration: none;
     cursor: pointer;
     color: black;
-    padding: 1em 0.5em;
+    padding: 1.3em 0.5em;
     margin: 0 1em;
 }
- .jumbotron {
-     width: 100%; 
+
+.link-barra-di-navigazione:hover {
+    border-bottom: 2px solid grey;
+}
+
+ .jumbotron { 
      background-color: lightblue;
      padding: 3em;
      position: relative;
  }
 
- .titolo-pagina {
-     width: 80%;
-     margin: 0 auto;
- }
-
- h1 {
+ .titolo-pagina.width-80.centratura h1 {
      font-size: 4.2em;
  }
 
  .testo-jumbo {
-     width: 30%;
      margin: 2em 0;
 
  }
-
- /* .titolo-pagina > div {
-     margin: 2em 0; 
- } */
 
  .annullamento, .testo-jumbo {
      font-size: 0.8em;
@@ -110,10 +125,6 @@ html {
      text-decoration: none;
      cursor: pointer;
      color: black;
- }
-
- .contenitore-immagine-jumbo {
-     width: 50%;
  }
 
  #img-jumbo {
