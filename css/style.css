@@ -165,8 +165,9 @@ form {
 }
 
 .tipologia-abbonamento {
-    padding: 0.5em 0;
-    border: 1px solid grey;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 0.5em 1em;
 }
 
 .titolo-categoria, 
@@ -175,6 +176,7 @@ form {
     margin-left: 1em;
     margin-bottom: 2em;
 }
+
 .pacchetto, .prezzo {
     font-weight:900;
 }
@@ -189,7 +191,6 @@ form {
 .spazio-di-archiviazione,
 .funzionalità {
     font-weight: normal;
-    font-size: 0.6em;
 }
 
 .alternativa {
@@ -215,9 +216,35 @@ form {
 
 .punti-di-forza {
     padding: 1em 0;
+    font-weight: normal;
 }
 
 .colonna-tariffa {
-    padding: 0.5em;
+    height: 80vh;
     border: 1px solid gray;
+    margin-bottom: 1em;
+}
+
+.contatti {
+    border: 1px solid grey;
+    position: relative;
+}
+
+.testo-contatti {
+    font-weight: normal;
+    font-size: small;
+}
+
+.elementi {
+    padding: 1em 0;
+}
+
+.contenitore-contatti {
+    margin-left: 1em;
+}
+
+.absolute {
+    position: absolute;
+    top: 3.5em;
+    right: 1em;
 }
