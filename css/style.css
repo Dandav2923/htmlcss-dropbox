@@ -39,17 +39,17 @@ html {
     clear: both; 
 }
 
-.colonna {
-    padding: 0.5em;
-    line-height: 50px;
-}
-
 .cta {
     text-decoration: none;
     color: white;
     background-color: blue;
     cursor: pointer;
     padding: 0.5em;
+}
+
+.colonna {
+    padding: 0.5em;
+    line-height: 50px;
 }
 
 .cta:hover {
@@ -134,3 +134,14 @@ html {
      right: 12em;
  }
 
+.contenitore-main {
+    margin: 10em;
+}
+
+.contenitore-sezione-tariffe.width-70.centratura > h2 {
+    font-size: 2em;
+}
+
+form {
+    margin: 2em 0 1em 0;
+}
