@@ -253,3 +253,16 @@ form {
 .img {
     width: 100%;
 }
+
+.contenitore-sezione-partner {
+    margin-top: 3em;
+}
+
+.colonna-destra {
+    padding: 2em;
+}
+
+.contenitore-cta-bianco.cta .bianco {
+    background-color: white;
+    color: black
+}
