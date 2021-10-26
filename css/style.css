@@ -65,8 +65,8 @@ html {
 }
 
 .colonna {
-    padding: 0.5em;
-    line-height: 50px;
+    /* padding: 0.5em; */
+    /* line-height: 50px; */
 }
 
 .cta:hover {
@@ -99,7 +99,6 @@ html {
     display: inline-block;
     vertical-align: middle;
     list-style-type: none;
-    padding: 0 1em;
 }
 
 .link-barra-di-navigazione {
@@ -107,7 +106,7 @@ html {
     cursor: pointer;
     color: black;
     padding: 1.3em 0.5em;
-    /* margin: 0 1em; */
+    margin: 0 1em;
 }
 
 .link-barra-di-navigazione:hover {
