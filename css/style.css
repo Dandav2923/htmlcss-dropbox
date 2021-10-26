@@ -13,7 +13,6 @@ html {
     margin: 0 5%;
 }
 
-
 .width-100 {
     width: 100%;
 }
@@ -29,12 +28,21 @@ html {
 .width-70 {
     width: 70%;
 }
+
+.width-60 {
+    width: 60%;
+}
+
 .width-50 {
     width: 50%;
 }
 
 .width-30 {
     width: 30%;
+}
+
+.width-25 {
+    width: 25%;
 }
 
 .padding {
@@ -153,7 +161,7 @@ html {
  }
 
 .contenitore-main {
-    margin: 10em;
+    margin-top: 10em;
 }
 
 .contenitore-sezione-tariffe.width-70.centratura > h2 {
@@ -304,4 +312,22 @@ form {
 
 .link-clienti a {
     color: blue;
+}
+
+.partner {
+    margin: 1em;
+}
+
+.contenitore-immagini > img {
+    width: 50%;
+}
+
+.contenitore-immagini {
+    background-color: red;
+    text-align: center;
+    height: 200px;
+}
+
+.colonna-partner-sinistra {
+    padding: 1em;
 }
