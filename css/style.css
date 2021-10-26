@@ -68,18 +68,16 @@ html {
     filter: opacity(80%);
 }
 
-
 .barra-di-navigazione {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: white;
+    background-color: white;  
 }
 
 #img-logo {
     height: 100%;
-    vertical-align: middle;
 }
 
 .float-sinistra {
@@ -92,7 +90,6 @@ html {
 
 .elenco-link, .lista-elementi {
     display: inline-block;
-    vertical-align: middle;
     list-style-type: none;
 }
 
@@ -109,6 +106,7 @@ html {
 }
 
  .jumbotron { 
+     min-height: 50vh;
      background-color: lightblue;
      padding: 3em;
      position: relative;
@@ -140,11 +138,11 @@ html {
  }
 
  #img-jumbo {
-     width: 46%;
-     max-width: 50%;
+     width: 55%;
+     /* max-width: 50vw; */
      position: absolute;
-     top: 14.5em;
-     right: 12em;
+     top: 15em;
+     right: 8em;
  }
 
 .contenitore-main {
