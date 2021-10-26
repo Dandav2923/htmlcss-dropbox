@@ -207,6 +207,7 @@ form {
 }
 
 .acquista, .fa-check {
+    text-decoration: none;
     color: blue;
 }
 
@@ -287,4 +288,20 @@ form {
 
 .no-margine {
     margin: 0;
+}
+
+.contenitore-informazioni {
+    margin-top: 5em;
+}
+
+.colonna-informazioni > h3 {
+    font-size: 2em;
+}
+
+.link-clienti {
+    margin-top: 1em;
+}
+
+.link-clienti a {
+    color: blue;
 }
