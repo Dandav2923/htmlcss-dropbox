@@ -64,11 +64,6 @@ html {
     padding: 0.5em 1em;
 }
 
-.colonna {
-    /* padding: 0.5em; */
-    /* line-height: 50px; */
-}
-
 .cta:hover {
     filter: opacity(80%);
 }
