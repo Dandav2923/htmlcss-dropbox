@@ -10,7 +10,7 @@ html {
     font-weight: 600;
 }
 .margine-centrale {
-    margin: 0 2.6em;
+    margin: 0 2.73em;
 }
 
 
@@ -99,6 +99,7 @@ html {
     display: inline-block;
     vertical-align: middle;
     list-style-type: none;
+    padding: 0 1em;
 }
 
 .link-barra-di-navigazione {
@@ -106,7 +107,7 @@ html {
     cursor: pointer;
     color: black;
     padding: 1.3em 0.5em;
-    margin: 0 1em;
+    /* margin: 0 1em; */
 }
 
 .link-barra-di-navigazione:hover {
@@ -262,7 +263,29 @@ form {
     padding: 2em;
 }
 
-.contenitore-cta-bianco.cta .bianco {
+.contenitore-cta-bianco .cta.bianco {
     background-color: white;
-    color: black
+    color: black;
+    border: 1px solid black;
+    font-weight: normal;
+}
+
+.colonna-destra > h2, p {
+    margin: 1em 0;
+} 
+
+.colonna-destra > p {
+    font-weight: normal;
+}
+
+.titolo-sezione {
+    margin: 2em 0;
+}
+
+.riga-superiore {
+    margin-right: 2em;
+}
+
+.no-margine {
+    margin: 0;
 }
