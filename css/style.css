@@ -56,7 +56,7 @@ html {
 }
 
 .cta {
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
     color: white;
     background-color: blue;
@@ -75,11 +75,13 @@ html {
     z-index: 999;
     background-color: white;  
     height: 70px;
+    line-height: 52px;
 
 }
 
 #img-logo {
     height: 100%;
+    vertical-align: sub;
 }
 
 .float-sinistra {
@@ -93,14 +95,17 @@ html {
 .elenco-link, .lista-elementi {
     display: inline-block;
     list-style-type: none;
+    height: 100%;
 }
 
 .link-barra-di-navigazione {
+    display: inline-block;
     text-decoration: none;
     cursor: pointer;
     color: black;
-    padding: 1.3em 0.5em;
-    margin: 0 1em;
+    /* padding: 1.3em 0.5em; */
+    height: 100%;
+    margin: 1em 1em;
 }
 
 .link-barra-di-navigazione:hover {
