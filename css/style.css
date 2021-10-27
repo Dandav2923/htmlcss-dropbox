@@ -443,6 +443,7 @@ form {
 
 .elementi {
     padding: 0.2em 0;  
+    font-weight: normal;
 }
 
 .liste-elementi li a {
@@ -462,4 +463,15 @@ form {
 .contenitore-footer {
     margin: 6em 0 0 0;
     padding: 5em 0;
+}
+
+.contenitore-lingua > span {
+    margin-left: 0.3em;
+}
+
+.contenitore-lingua {
+    color: lightgray;
+    margin: 7em 6em 0 0;
+    padding: 3em 0 0 0;
+    border-top: 1px solid lightgray;
 }
