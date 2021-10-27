@@ -45,6 +45,10 @@ html {
     width: 25%;
 }
 
+.width-20 {
+    width: 20%;
+}
+
 .padding {
     padding: 0.5em 0;
 }
@@ -83,6 +87,10 @@ html {
 
 .celeste {
     background-color: turquoise;
+}
+
+.nero {
+    background-color: black;
 }
 
 .no-margine {
@@ -420,6 +428,38 @@ form {
     border-top: 1px solid lightgray;
 }
 
+.finale {
+    border-bottom: 1px solid lightgray;
+}
+
 .domande-frequenti > h3 {
     margin: 2em 0;
+}
+
+.liste-elementi {
+    list-style-type: none;
+    text-align: left;
+}
+
+.elementi {
+    padding: 0.2em 0;  
+}
+
+.liste-elementi li a {
+    text-decoration: none;
+    color: white;
+}
+
+.liste-elementi li a:hover {
+    text-decoration: underline;
+}
+
+ .contenitore-footer h3 {
+    color: white ;
+    padding: 1em 0;
+}
+
+.contenitore-footer {
+    margin: 6em 0 0 0;
+    padding: 5em 0;
 }
