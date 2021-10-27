@@ -57,6 +57,38 @@ html {
     text-align: center;
 }
 
+.verde {
+    background-color: greenyellow;
+}
+
+.marrone {
+    background-color: brown;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.celeste {
+    background-color: turquoise;
+}
+
+.no-margine {
+    margin: 0;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -294,9 +326,6 @@ form {
     margin-right: 2em;
 }
 
-.no-margine {
-    margin: 0;
-}
 
 .contenitore-informazioni {
     margin-top: 5em;
@@ -353,34 +382,6 @@ form {
     height: 150px;   
 }
 
-.verde {
-    background-color: greenyellow;
-}
-
-.marrone {
-    background-color: brown;
-}
-
-.light-blue {
-    background-color: lightblue;
-}
-
-.rosso {
-    background-color: red;
-}
-
-.blu {
-    background-color: blue;
-}
-
-.giallo {
-    background-color: yellow;
-}
-
-.celeste {
-    background-color: turquoise;
-}
-
 .colonna-prova-gratuita .cta.bianco {
     display: inline-block;
     background-color: white;
@@ -400,4 +401,25 @@ form {
 
 .sezione-prova-gratuita {
     margin-bottom: 2em;
+}
+
+.domanda, .freccia {
+    display: inline-block;
+}
+
+.domanda {
+    text-align: left;
+}
+
+.freccia {
+    text-align: right;
+}
+
+.contenitore-domanda {
+    line-height: 5em;
+    border-top: 1px solid lightgray;
+}
+
+.domande-frequenti > h3 {
+    margin: 2em 0;
 }
