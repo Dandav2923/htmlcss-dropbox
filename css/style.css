@@ -315,19 +315,68 @@ form {
 }
 
 .partner {
-    margin: 1em;
+    margin:2em 0;
 }
 
 .contenitore-immagini > img {
     width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 .contenitore-immagini {
-    background-color: red;
     text-align: center;
     height: 200px;
+    position: relative;
 }
 
-.colonna-partner-sinistra {
-    padding: 1em;
+.colonna-partner-centrale {
+    padding: 3em 3em 0 3em;
+}
+
+.contenitore-img-partner-centrale{
+    width: 7em;
+}
+
+.img-partner-centrale {
+    width: 100%;
+    padding: 2em 0;
+    border-bottom: 1px solid grey;
+}
+
+.contenitore-testo-partner {
+    margin: 2em 0;
+    overflow: auto;
+    height: 150px;   
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.marrone {
+    background-color: brown;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.celeste {
+    background-color: turquoise;
 }
